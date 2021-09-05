@@ -1,7 +1,7 @@
 {
     "name": "Node-Arguello",
     "version": "1.0.0",
-    "description": "Rest APII",
+    "description": "Rest API",
     "main": "index.js",
 
     "scripts": {
