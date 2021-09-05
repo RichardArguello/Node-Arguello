@@ -1,13 +1,16 @@
 {
     "name": "Node-Arguello",
     "version": "1.0.0",
-    "description": "",
+    "description": "Rest API",
     "main": "index.js",
+
     "scripts": {
-        "start": "babel-node src/index.js"
+        "build": "babel src --out-dir build",
+        "dev": "nodemon src/index.js --exec babel-node",
+        "start": "node build/index.js"
     },
     "keywords": [],
-    "author": "",
+    "author": "Richard Arguello",
     "license": "ISC",
     "dependencies": {
         "bcryptjs": "^2.4.3",
